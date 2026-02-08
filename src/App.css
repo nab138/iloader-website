@@ -235,6 +235,17 @@ p {
   align-items: center;
   gap: 0.75rem;
   margin-top: 0;
+  flex-wrap: wrap;
+  align-items: stretch;
+  text-align: center;
+}
+
+.buttons .button {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 ul {
