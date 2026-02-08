@@ -4,7 +4,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
-import { HashRouter, Route, Routes, useNavigate } from "react-router";
+import { BrowserRouter, Route, Routes, useNavigate } from "react-router";
 import PairingFile from "./PairingFile.tsx";
 import logo from "/iloader.svg";
 
@@ -48,8 +48,8 @@ const Main = () => {
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <HashRouter>
+    <BrowserRouter>
       <Main />
-    </HashRouter>
+    </BrowserRouter>
   </StrictMode>,
 );
