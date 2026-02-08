@@ -236,6 +236,15 @@ function App() {
 
       <footer className="footer">
         <p>Official Site | Maintained by nab138</p>
+        Website source code licensed under{" "}
+        <a href="https://github.com/nab138/iloader-website/blob/main/LICENSE">
+          AGPLv3
+        </a>
+        . Branding, logos, and the name "iloader" are excluded and subject to{" "}
+        <a href="https://github.com/nab138/iloader-website/blob/main/LICENSE-BRANDING">
+          separate terms
+        </a>
+        .
       </footer>
     </main>
   );

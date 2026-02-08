@@ -97,18 +97,6 @@ body {
   pointer-events: none;
 }
 
-.pill {
-  padding: 0.65rem 1.4rem;
-  border-radius: 14px;
-  font-size: 0.95rem;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 130px;
-}
-
 .section-header {
   display: flex;
   align-items: center;
@@ -328,4 +316,8 @@ button.danger {
 
 a {
   color: var(--accent-primary);
+}
+
+.footer {
+  text-align: center;
 }

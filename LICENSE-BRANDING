@@ -1,28 +1,30 @@
-iloader Website – Branding and Trademark Notice
+iloader - Branding and Attribution Notice
 Copyright (C) 2026 nab138
 All rights reserved.
 
-The source code of this repository is licensed under the GNU Affero
-General Public License v3.0 (AGPLv3), except for the materials
-identified below.
+The source code of the iloader website is licensed under the GNU Affero
+General Public License v3.0 (AGPLv3) (see LICENSE).
 
-The following materials are NOT licensed under the AGPLv3 and are
-excluded from the open source license:
+The following materials are NOT covered by the above license and are
+subject to separate restrictions:
 
-1. The entire public/ directory, including all images, graphics,
-   banners, logos, and media assets contained therein.
-2. The name "iloader" and any associated trademarks, wordmarks, or
-   brand identifiers.
-3. Any promotional, marketing, or branding elements associated with
-   the website.
+- Logos, icons, graphical branding, and promotional assets included
+  anywhere in the repository.
+- The name "iloader" and any associated wordmarks or trademarks.
 
-You may not use, reproduce, modify, or distribute these materials
-in a way that implies official affiliation with or endorsement by the
-original author without prior written permission.
+Rules for use:
 
-Forks and modified versions of this project must remove or replace
-all excluded branding materials and must not use the name "iloader"
-in a way that implies official status or association.
+1. You may retain or use these branding materials in forks, derivative works,
+   documentation, tutorials, examples, or educational materials, provided that:
+   - You do **not** imply official affiliation, endorsement, or sponsorship
+     by the original author.
+   - Any use of the original branding **includes a clear link** to either:
+     - The official iloader website: <https://iloader.app>, or
+     - The respective source code repository:
+       - App: <https://github.com/nab138/iloader>
+       - Website: <https://github.com/nab138/iloader-website>
+2. You may not claim the work as the official release or use the branding
+   in a way that suggests endorsement.
 
-This notice does not limit your rights under the AGPLv3 with respect
-to the source code of the project.
+This notice applies to all forks, modifications, and derivative works
+of both the iloader app and the iloader website.
