@@ -10,7 +10,7 @@ function App() {
         <img src={logo} alt="iloader logo" className="logo" />
         <div>
           <h1 className="title">iloader</h1>
-          <p className="subtitle">Sideloading Companion</p>
+          <p className="subtitle">iOS Sideloading Companion</p>
         </div>
       </div>
 
@@ -23,9 +23,9 @@ function App() {
           <div className="glass-card">
             <h2>About iloader</h2>
             <p>
-              iloader is a free & open source user-friendly sideloader designed
-              to make installing SideStore (or other apps) on an iOS device as
-              easy as possible.
+              iloader is a free and open source user-friendly sideloader
+              designed to make installing SideStore (or other apps) on an
+              iDevice as easy as possible.
             </p>
             <div>
               <h3>Features</h3>
@@ -73,6 +73,17 @@ function App() {
           </div>
           <div className="glass-card">
             <h2>Download iloader</h2>
+            <p>
+              Here and{" "}
+              <a
+                style={{ color: "inherit" }}
+                href="https://github.com/nab138/iloader"
+              >
+                the GitHub repository
+              </a>{" "}
+              are the only places iloader is officially distributed. Do not
+              download iloader from any other sources.
+            </p>
             <div className="downloads">
               <div className="card">
                 <h3>Windows</h3>
@@ -219,6 +230,10 @@ function App() {
           </div>
         </section>
       </div>
+
+      <footer className="footer">
+        <p>Official Site | Maintained by nab138</p>
+      </footer>
     </main>
   );
 }
