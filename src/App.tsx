@@ -203,7 +203,7 @@ function App() {
                 <a href="https://github.com/nab138/isideload" target="_blank">
                   isideload by nab138
                 </a>
-                <span className="subtitle">Sideloading library</span>
+                <span className="subtitle">Sideloading Library</span>
               </div>
               <div className="card">
                 <a href="https://github.com/Dadoum/Sideloader" target="_blank">
