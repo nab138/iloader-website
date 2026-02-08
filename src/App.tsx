@@ -37,7 +37,7 @@ function App() {
                   Manage pairing files for apps like StikDebug or Protokolle
                 </li>
                 <li>See and manage development certificates and app ids</li>
-                <li>Open Source & MIT Licensed</li>
+                <li>Open source & MIT licensed</li>
               </ul>
             </div>
             <div className="buttons">
