@@ -235,8 +235,7 @@ function App() {
       </div>
 
       <footer className="footer">
-        <p>Official Site | Maintained by nab138</p>
-        Website source code licensed under{" "}
+        © 2026 nab138. Website source licensed under{" "}
         <a href="https://github.com/nab138/iloader-website/blob/main/LICENSE">
           AGPLv3
         </a>
