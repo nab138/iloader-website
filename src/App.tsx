@@ -235,15 +235,17 @@ function App() {
       </div>
 
       <footer className="footer">
-        © 2026 nab138. Website source licensed under{" "}
-        <a href="https://github.com/nab138/iloader-website/blob/main/LICENSE">
-          AGPLv3
-        </a>
-        . Branding, logos, and the name "iloader" are excluded and subject to{" "}
-        <a href="https://github.com/nab138/iloader-website/blob/main/LICENSE-BRANDING">
-          separate terms
-        </a>
-        .
+        <p>
+          © 2026 nab138. Website source licensed under{" "}
+          <a href="https://github.com/nab138/iloader-website/blob/main/LICENSE">
+            AGPLv3
+          </a>
+          . Branding, logos, and the name "iloader" are excluded and subject to{" "}
+          <a href="https://github.com/nab138/iloader-website/blob/main/LICENSE-BRANDING">
+            separate terms
+          </a>
+          .
+        </p>
       </footer>
     </main>
   );
