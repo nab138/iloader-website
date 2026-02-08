@@ -1,0 +1,28 @@
+iloader Website – Branding and Trademark Notice
+Copyright (C) 2026 nab138
+All rights reserved.
+
+The source code of this repository is licensed under the GNU Affero
+General Public License v3.0 (AGPLv3), except for the materials
+identified below.
+
+The following materials are NOT licensed under the AGPLv3 and are
+excluded from the open source license:
+
+1. The entire public/ directory, including all images, graphics,
+   banners, logos, and media assets contained therein.
+2. The name "iloader" and any associated trademarks, wordmarks, or
+   brand identifiers.
+3. Any promotional, marketing, or branding elements associated with
+   the website.
+
+You may not use, reproduce, modify, or distribute these materials
+in a way that implies official affiliation with or endorsement by the
+original author without prior written permission.
+
+Forks and modified versions of this project must remove or replace
+all excluded branding materials and must not use the name "iloader"
+in a way that implies official status or association.
+
+This notice does not limit your rights under the AGPLv3 with respect
+to the source code of the project.

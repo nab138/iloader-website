@@ -1,3 +1,6 @@
+// Copyright (C) 2026 nab138
+// Licensed under the GNU AGPLv3. See LICENSE for details.
+
 import logo from "/iloader.svg";
 import "./App.css";
 
