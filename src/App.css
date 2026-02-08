@@ -75,6 +75,7 @@ body {
   display: flex;
   align-items: center;
   gap: 0.9rem;
+  cursor: pointer;
 }
 
 .title {
@@ -248,8 +249,12 @@ ul {
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
-  /* gap between columns */
   column-gap: 2rem;
+}
+
+ol {
+  margin: 0;
+  padding-left: 1rem;
 }
 
 .downloads {
@@ -307,7 +312,6 @@ button.danger {
   min-width: fit-content;
 }
 
-/* make first two contributors big and take more space */
 .favor-first-two div:nth-child(1),
 .favor-first-two div:nth-child(2) {
   flex: 2;
@@ -320,11 +324,10 @@ a {
 
 .footer {
   text-align: center;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
   font-size: 0.9rem;
 }
 
 .disclaimer {
-  /* wrap text to fit instead of expanding parent */
   color: var(--text-muted);
 }
