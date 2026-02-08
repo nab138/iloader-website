@@ -43,6 +43,17 @@ function App() {
                 <li>Open source & MIT licensed</li>
               </ul>
             </div>
+            <div>
+              <p className="disclaimer">
+                iloader is designed to be safe and unlikely to cause issues, but
+                we are not responsible for damage to devices, data, or Apple
+                accounts.
+              </p>
+              <p className="disclaimer">
+                We are not responsible for any misuse of iloader; please ensure
+                compliance with all applicable laws and regulations.
+              </p>
+            </div>
             <div className="buttons">
               <a
                 className="button"
@@ -50,6 +61,13 @@ function App() {
                 target="_blank"
               >
                 GitHub
+              </a>
+              <a
+                className="button"
+                href="https://github.com/nab138/iloader/issues"
+                target="_blank"
+              >
+                Report a Bug
               </a>
               <a
                 className="button"

@@ -323,3 +323,8 @@ a {
   padding-bottom: 1rem;
   font-size: 0.9rem;
 }
+
+.disclaimer {
+  /* wrap text to fit instead of expanding parent */
+  color: var(--text-muted);
+}
