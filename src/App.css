@@ -23,7 +23,7 @@
   --glass-border: rgba(255, 255, 255, 0.08);
   --glass-highlight: #0a84ff;
   --text-muted: #8e8e93;
-  --accent-primary: #0a84ff;
+  --accent-primary: #2e95ff;
   --accent-secondary: #007aff;
   --success: #30d158;
   --danger: #ff453a;
@@ -282,12 +282,18 @@ ul {
 
 .button.primary,
 button.primary {
-  background: var(--accent-primary);
+  background: var(--glass-highlight);
   border-color: var(--accent-primary);
   color: #fff;
 }
 
-.button.danger,
+.button.primary:hover,
+button.primary:hover {
+  background: var(--accent-secondary);
+  border-color: var(--accent-primary);
+}
+
+.button .button.danger,
 button.danger {
   background: rgba(255, 69, 58, 0.12);
   border-color: rgba(255, 69, 58, 0.55);
