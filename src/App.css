@@ -212,7 +212,7 @@ button:active {
 .card {
   border-radius: 1.1rem;
   padding: 1rem 1.25rem;
-  background: #2c2c2e;
+  background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.07);
 }
 
