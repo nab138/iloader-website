@@ -149,7 +149,7 @@ function App() {
             <h2>Contributors</h2>
             <div className="contributors favor-first-two">
               <div className="card">
-                <a href="https://github.com/nab138" target="_blank">
+                <a href="https://nabdev.me" target="_blank">
                   nab138
                 </a>
                 <span className="subtitle">Creator & Maintainer</span>
