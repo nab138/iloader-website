@@ -50,7 +50,7 @@ export default function Downloads() {
           </a>
         </div>
         <div className="card">
-          <h3>MacOS</h3>
+          <h3>macOS</h3>
           <p>No prerequisites</p>
           <a
             className="button primary"

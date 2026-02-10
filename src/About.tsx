@@ -10,7 +10,7 @@ export default function About() {
       <div>
         <h3>Features</h3>
         <ul>
-          <li>Supports Windows, Linux, and MacOS</li>
+          <li>Supports Windows, Linux, and macOS</li>
           <li>Automatically installs and helps setup SideStore</li>
           <li>Install any .ipa application</li>
           <li>Manage pairing files for apps like StikDebug or Protokolle</li>
