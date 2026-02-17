@@ -130,6 +130,18 @@ export default function App() {
               </a>
               <span className="subtitle">Italian (it)</span>
             </div>
+            <div className="card">
+              <a href="https://github.com/baocreata" target="_blank">
+                baocreata
+              </a>
+              <span className="subtitle">Vietnamese (vi)</span>
+            </div>
+            <div className="card">
+              <a href="https://github.com/IamArayel" target="_blank">
+                IamArayel
+              </a>
+              <span className="subtitle">French (fr)</span>
+            </div>
           </div>
           <p className="subtitle">
             You can contribute translations{" "}
