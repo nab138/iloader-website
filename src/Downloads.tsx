@@ -10,6 +10,12 @@ export default function Downloads() {
         are the only places iloader is officially distributed. Do not download
         iloader from any other sources.
       </p>
+      <p>
+        Linux ARM builds are available on the{" "}
+        <a href="https://github.com/nab138/iloader/releases/latest">
+          the GitHub repository.
+        </a>
+      </p>
       <div className="downloads">
         <div className="card">
           <h3>Windows</h3>
@@ -31,7 +37,7 @@ export default function Downloads() {
           </a>
         </div>
         <div className="card">
-          <h3>Linux</h3>
+          <h3>Linux (x86_64)</h3>
           <p>Requires usbmuxd (likely bundled with your distro)</p>
           <a
             className="button primary"

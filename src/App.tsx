@@ -69,7 +69,7 @@ export default function App() {
             </div>
           </div>
           <h2>Special Thanks</h2>
-          <div className="contributors">
+          <div className="contributors favor-first-three">
             <div className="card">
               <a href="https://github.com/transistor-exe" target="_blank">
                 Transistor
@@ -87,6 +87,12 @@ export default function App() {
                 isideload by nab138
               </a>
               <span className="subtitle">Sideloading Library</span>
+            </div>
+            <div className="card">
+              <a href="https://github.com/khcrysalis/Impactor" target="_blank">
+                Impactor by khcrysalis
+              </a>
+              <span className="subtitle">Reference Code</span>
             </div>
             <div className="card">
               <a href="https://github.com/Dadoum/Sideloader" target="_blank">
@@ -110,6 +116,30 @@ export default function App() {
               <span className="subtitle">App Framework</span>
             </div>
           </div>
+          <h2>Translators</h2>
+          <div className="contributors">
+            <div className="card">
+              <a href="https://github.com/TNT-333" target="_blank">
+                TNT-333
+              </a>
+              <span className="subtitle">German (de)</span>
+            </div>
+            <div className="card">
+              <a href="https://github.com/basketshoe" target="_blank">
+                basketshoe
+              </a>
+              <span className="subtitle">Italian (it)</span>
+            </div>
+          </div>
+          <p className="subtitle">
+            You can contribute translations{" "}
+            <a
+              href="https://github.com/nab138/iloader?tab=readme-ov-file#translating"
+              target="_blank"
+            >
+              here.
+            </a>
+          </p>
         </div>
       </section>
     </div>

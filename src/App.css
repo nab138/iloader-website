@@ -316,6 +316,14 @@ button.danger {
 .favor-first-two div:nth-child(2) {
   flex: 2;
   min-width: 45%;
+  min-width: max(150px, 29%);
+}
+
+.favor-first-three div:nth-child(1),
+.favor-first-three div:nth-child(2),
+.favor-first-three div:nth-child(3) {
+  flex-grow: 2;
+  min-width: max(150px, 29%);
 }
 
 a {
