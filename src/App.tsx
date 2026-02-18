@@ -142,6 +142,18 @@ export default function App() {
               </a>
               <span className="subtitle">French (fr)</span>
             </div>
+            <div className="card">
+              <a href="https://github.com/kkula9999" target="_blank">
+                kkula9999
+              </a>
+              <span className="subtitle">Chinese (zh_tw & zh_cn)</span>
+            </div>
+            <div className="card">
+              <a href="https://github.com/sibwaze" target="_blank">
+                sibwaze
+              </a>
+              <span className="subtitle">Russian (ru)</span>
+            </div>
           </div>
           <p className="subtitle">
             You can contribute translations{" "}
