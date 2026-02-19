@@ -154,6 +154,30 @@ export default function App() {
               </a>
               <span className="subtitle">Russian (ru)</span>
             </div>
+            <div className="card">
+              <a href="https://github.com/okinaau" target="_blank">
+                okinaau
+              </a>
+              <span className="subtitle">Arabic (ar)</span>
+            </div>
+            <div className="card">
+              <a href="https://github.com/WingChunWong" target="_blank">
+                WingChunWong
+              </a>
+              <span className="subtitle">Chinese (zh_tw & zh_cn)</span>
+            </div>
+            <div className="card">
+              <a href="https://github.com/marcinmajsc" target="_blank">
+                marcinmajsc
+              </a>
+              <span className="subtitle">Polish (pl)</span>
+            </div>
+            <div className="card">
+              <a href="https://github.com/ern775" target="_blank">
+                ern775
+              </a>
+              <span className="subtitle">Turkish (tr)</span>
+            </div>
           </div>
           <p className="subtitle">
             You can contribute translations{" "}
