@@ -122,61 +122,73 @@ export default function App() {
               <a href="https://github.com/TNT-333" target="_blank">
                 TNT-333
               </a>
-              <span className="subtitle">German (de)</span>
+              <span className="subtitle">German</span>
             </div>
             <div className="card">
               <a href="https://github.com/basketshoe" target="_blank">
                 basketshoe
               </a>
-              <span className="subtitle">Italian (it)</span>
+              <span className="subtitle">Italian</span>
             </div>
             <div className="card">
               <a href="https://github.com/baocreata" target="_blank">
                 baocreata
               </a>
-              <span className="subtitle">Vietnamese (vi)</span>
+              <span className="subtitle">Vietnamese</span>
             </div>
             <div className="card">
               <a href="https://github.com/IamArayel" target="_blank">
                 IamArayel
               </a>
-              <span className="subtitle">French (fr)</span>
+              <span className="subtitle">French</span>
             </div>
             <div className="card">
               <a href="https://github.com/kkula9999" target="_blank">
                 kkula9999
               </a>
-              <span className="subtitle">Chinese (zh_tw & zh_cn)</span>
+              <span className="subtitle">Chinese</span>
             </div>
             <div className="card">
               <a href="https://github.com/sibwaze" target="_blank">
                 sibwaze
               </a>
-              <span className="subtitle">Russian (ru)</span>
+              <span className="subtitle">Russian</span>
             </div>
             <div className="card">
               <a href="https://github.com/okinaau" target="_blank">
                 okinaau
               </a>
-              <span className="subtitle">Arabic (ar)</span>
+              <span className="subtitle">Arabic</span>
             </div>
             <div className="card">
               <a href="https://github.com/WingChunWong" target="_blank">
                 WingChunWong
               </a>
-              <span className="subtitle">Chinese (zh_tw & zh_cn)</span>
+              <span className="subtitle">Cantonese & Chinese</span>
             </div>
             <div className="card">
               <a href="https://github.com/marcinmajsc" target="_blank">
                 marcinmajsc
               </a>
-              <span className="subtitle">Polish (pl)</span>
+              <span className="subtitle">Polish</span>
             </div>
             <div className="card">
               <a href="https://github.com/ern775" target="_blank">
                 ern775
               </a>
-              <span className="subtitle">Turkish (tr)</span>
+              <span className="subtitle">Turkish</span>
+            </div>
+            <div className="card">
+              <a href="https://github.com/jazoppix" target="_blank">
+                jazoppix
+              </a>
+              <span className="subtitle">Spanish</span>
+            </div>
+            <div className="card">
+              <a href="https://github.com/eseiker" target="_blank">
+                eseiker
+              </a>
+              <span className="subtitle">Korean</span>
             </div>
           </div>
           <p className="subtitle">
