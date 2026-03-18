@@ -190,6 +190,24 @@ export default function App() {
               </a>
               <span className="subtitle">Korean</span>
             </div>
+            <div className="card">
+              <a href="https://github.com/seomin0610" target="_blank">
+                seomin0610
+              </a>
+              <span className="subtitle">Korean</span>
+            </div>
+            <div className="card">
+              <a href="https://github.com/Ordyan777" target="_blank">
+                Ordyan777
+              </a>
+              <span className="subtitle">Armenian</span>
+            </div>
+            <div className="card">
+              <a href="https://github.com/kakik0u" target="_blank">
+                kakik0u
+              </a>
+              <span className="subtitle">Japanese</span>
+            </div>
           </div>
           <p className="subtitle">
             You can contribute translations{" "}
