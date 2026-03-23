@@ -54,6 +54,9 @@ export default function Downloads() {
           >
             AppImage
           </a>
+          <a className="button" href={`https://aur.archlinux.org/packages/iloader-bin/`} target="_blank">
+            AUR (Community Maintained)
+          </a>
         </div>
         <div className="card">
           <h3>macOS</h3>
@@ -69,6 +72,9 @@ export default function Downloads() {
             href={`${base_url}iloader-darwin-universal.app.tar.gz`}
           >
             App Bundle (tar.gz)
+          </a>
+          <a className="button" href={`https://formulae.brew.sh/cask/iloader`} target="_blank">
+            Homebrew (Community Maintained)
           </a>
         </div>
       </div>

@@ -4,7 +4,13 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
-import { BrowserRouter, Route, Routes, useNavigate } from "react-router";
+import {
+  BrowserRouter,
+  Route,
+  Routes,
+  useNavigate,
+} from "react-router";
+import { HelmetProvider } from "react-helmet-async";
 import PairingFile from "./PairingFile.tsx";
 import logo from "/iloader.svg";
 
@@ -12,6 +18,7 @@ import "./App.css";
 
 const Main = () => {
   const navigate = useNavigate();
+
   return (
     <>
       <main className="app">
@@ -48,8 +55,10 @@ const Main = () => {
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter>
-      <Main />
-    </BrowserRouter>
+    <HelmetProvider>
+      <BrowserRouter>
+        <Main />
+      </BrowserRouter>
+    </HelmetProvider>
   </StrictMode>,
 );

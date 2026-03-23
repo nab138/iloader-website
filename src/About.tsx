@@ -11,7 +11,7 @@ export default function About() {
         <h3>Features</h3>
         <ul>
           <li>Supports Windows, Linux, and macOS</li>
-          <li>Automatically installs and helps setup SideStore</li>
+          <li>Automatically installs and helps setup <a href="https://docs.sidestore.io" target="_blank">SideStore</a></li>
           <li>Install any .ipa application</li>
           <li>Place pairing files into apps like StikDebug or Protokolle</li>
           <li>See and manage development certificates and app ids</li>
@@ -21,12 +21,23 @@ export default function About() {
         </ul>
         <p>And more!</p>
       </div>
-      <p>
-        <strong>iloader 2.0.0 is out now!</strong> This version features a
-        completely rewritten backend bringing performance improvements and bug
-        fixes. It also comes with arm builds, localization, UX improvements, and
-        more!
-      </p>
+      <div>
+        <h3>FAQ</h3>
+        <p>
+          <strong>Where do I download iloader</strong> This website and
+          the GitHub repository linked below are the ONLY official sources.
+        </p>
+        <p>
+          <strong>Is iloader free?</strong> Yes. iloader is free and open source.
+        </p>
+        <p>
+          <strong>What platforms are supported?</strong> iloader supports
+          Windows, Linux (arm and x86_64), and macOS.
+        </p>
+        <p>
+          <strong>What can iloader install?</strong> iloader automatically sets up SideStore or LiveContainer+SideStore, but can also import any IPA
+        </p>
+      </div>
       <div>
         <p className="disclaimer">
           iloader is designed to be safe and unlikely to cause issues, but we
