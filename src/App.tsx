@@ -216,6 +216,12 @@ export default function App() {
                 </a>
                 <span className="subtitle">Japanese</span>
               </div>
+              <div className="card">
+                <a href="https://github.com/lkspodmol" target="_blank">
+                  lkspodmol
+                </a>
+                <span className="subtitle">Czech</span>
+              </div>
             </div>
             <p className="subtitle">
               You can contribute translations{" "}

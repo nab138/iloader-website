@@ -24,7 +24,7 @@ export default function About() {
       <div>
         <h3>FAQ</h3>
         <p>
-          <strong>Where do I download iloader</strong> This website and
+          <strong>Where do I download iloader?</strong> This website and
           the GitHub repository linked below are the ONLY official sources.
         </p>
         <p>
