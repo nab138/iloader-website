@@ -10,7 +10,7 @@ export default function App() {
     <>
       <Seo
         title="iloader - Free Open-Source iOS Sideloading Companion"
-        description="Official iloader website. Download iloader for Windows, macOS, and Linux to sideload SideStore and other apps."
+        description="Official website for iloader, the free and open-source iOS sideloading tool. Download for Windows, Mac, and Linux to install SideStore or other apps."
         canonical="https://iloader.app/"
       />
 
