@@ -7,8 +7,11 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="stylesheet" href="/src/App.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="dark" />
   <meta name="theme-color" content="#2c2c2e" />
+  <link rel="canonical" href="https://iloader.app/" />
   <meta name="description"
     content="Official website for iloader, the free and open-source iOS sideloading tool. Download for Windows, Mac, and Linux to install SideStore or other apps." />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
@@ -16,11 +19,20 @@
   <meta name="author" content="nab138" />
   <meta name="application-name" content="iloader" />
 
+  <meta property="og:title" content="iloader - Free Open-Source iOS Sideloading Companion" />
+  <meta property="og:description"
+    content="Official website for iloader, the free and open-source iOS sideloading tool. Download for Windows, Mac, and Linux to install SideStore or other apps." />
+  <meta property="og:url" content="https://iloader.app/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="iloader" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:image" content="https://iloader.app/iloader.svg" />
   <meta property="og:image:alt" content="iloader logo" />
+
+  <meta name="twitter:title" content="iloader - Free Open-Source iOS Sideloading Companion" />
+  <meta name="twitter:description"
+    content="Official website for iloader, the free and open-source iOS sideloading tool. Download for Windows, Mac, and Linux to install SideStore or other apps." />
+  <meta name="twitter:image" content="https://iloader.app/iloader.svg" />
 
   <script type="application/ld+json">
     {
@@ -61,26 +73,293 @@
 </head>
 
 <body>
-  <noscript>
-    <p>iloader</p>
+  <main class="app">
+    <div class="title-block">
+      <img src="/iloader.svg" alt="iloader logo" class="logo" />
+      <div>
+        <h1 class="title">iloader</h1>
+        <p class="subtitle">iOS Sideloading Companion</p>
+      </div>
+    </div>
+
+    <div class="workspace">
+      <section class="workspace-section">
+        <div class="section-header">
+          <p class="section-label">About</p>
+          <span class="section-hint">Info about iloader</span>
+        </div>
+        <div class="glass-card">
+          <h2>About iloader</h2>
+          <p>
+            iloader is a free and open-source iOS sideloading companion
+            designed to make installing SideStore and other IPA apps as easy as
+            possible.
+          </p>
+          <div>
+            <h3>Features</h3>
+            <ul>
+              <li>Supports Windows, Linux, and macOS</li>
+              <li>
+                Automatically installs and helps setup
+                <a href="https://docs.sidestore.io" target="_blank" rel="noreferrer">
+                  SideStore
+                </a>
+              </li>
+              <li>Install any .ipa application</li>
+              <li>Place pairing files into apps like StikDebug or Protokolle</li>
+              <li>See and manage development certificates and app ids</li>
+              <li>Open source and MIT licensed</li>
+              <li>Localized into multiple languages</li>
+              <li>View error logs</li>
+            </ul>
+            <p>And more!</p>
+          </div>
+          <div>
+            <h3>FAQ</h3>
+            <p>
+              <strong>Where do I download iloader?</strong> This website and the
+              GitHub repository linked below are the only official sources.
+            </p>
+            <p>
+              <strong>Is iloader free?</strong> Yes. iloader is free and open source.
+            </p>
+            <p>
+              <strong>What platforms are supported?</strong> iloader supports
+              Windows, Linux (arm and x86_64), and macOS.
+            </p>
+            <p>
+              <strong>What can iloader install?</strong> iloader automatically
+              sets up SideStore or LiveContainer+SideStore, but can also import
+              any IPA.
+            </p>
+          </div>
+          <div>
+            <p class="disclaimer">
+              iloader is designed to be safe and unlikely to cause issues, but we
+              are not responsible for damage to devices, data, or Apple accounts.
+            </p>
+            <p class="disclaimer">
+              We are not responsible for any misuse of iloader; please ensure
+              compliance with all applicable laws and regulations.
+            </p>
+          </div>
+          <div class="buttons">
+            <a class="button" href="https://github.com/nab138/iloader" target="_blank" rel="noreferrer">
+              GitHub
+            </a>
+            <a class="button" href="https://github.com/nab138/iloader/issues" target="_blank" rel="noreferrer">
+              Report a Bug
+            </a>
+            <a class="button" href="https://docs.sidestore.io/docs/installation/prerequisites" target="_blank"
+              rel="noreferrer">
+              SideStore Guide
+            </a>
+            <a class="button" href="https://github.com/nab138/iloader-website" target="_blank" rel="noreferrer">
+              Website Source
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="workspace-section">
+        <div class="section-header">
+          <p class="section-label">Download</p>
+          <span class="section-hint">Choose a build</span>
+        </div>
+        <div class="glass-card">
+          <h2>Download iloader</h2>
+          <p>
+            Here and <a href="https://github.com/nab138/iloader">the GitHub repository</a>
+            are the only places iloader is officially distributed. Do not download
+            iloader from any other sources.
+          </p>
+          <p>
+            Linux ARM builds are available on the
+            <a href="https://github.com/nab138/iloader/releases/latest" target="_blank" rel="noreferrer">
+              GitHub release page.
+            </a>
+          </p>
+          <div class="downloads">
+            <div class="card">
+              <h3>Windows</h3>
+              <p>
+                Requires <a href="https://apple.co/ms" target="_blank" rel="noreferrer">iTunes</a>
+                to be installed
+              </p>
+              <a class="button primary"
+                href="https://github.com/nab138/iloader/releases/latest/download/iloader-windows-x64.msi">
+                MSI Installer
+              </a>
+              <a class="button"
+                href="https://github.com/nab138/iloader/releases/latest/download/iloader-windows-x64.exe">
+                EXE Installer
+              </a>
+            </div>
+            <div class="card">
+              <h3>Linux (x86_64)</h3>
+              <p>Requires usbmuxd (likely bundled with your distro)</p>
+              <a class="button primary"
+                href="https://github.com/nab138/iloader/releases/latest/download/iloader-linux-amd64.deb">
+                Ubuntu/Debian (.deb)
+              </a>
+              <a class="button"
+                href="https://github.com/nab138/iloader/releases/latest/download/iloader-linux-x86_64.rpm">
+                Fedora/RedHat (.rpm)
+              </a>
+              <a class="button"
+                href="https://github.com/nab138/iloader/releases/latest/download/iloader-linux-amd64.AppImage">
+                AppImage
+              </a>
+              <a class="button" href="https://aur.archlinux.org/packages/iloader-bin/" target="_blank" rel="noreferrer">
+                AUR (Community Maintained)
+              </a>
+            </div>
+            <div class="card">
+              <h3>macOS</h3>
+              <p>No prerequisites</p>
+              <a class="button primary"
+                href="https://github.com/nab138/iloader/releases/latest/download/iloader-darwin-universal.dmg">
+                DMG Installer
+              </a>
+              <a class="button"
+                href="https://github.com/nab138/iloader/releases/latest/download/iloader-darwin-universal.app.tar.gz">
+                App Bundle (tar.gz)
+              </a>
+              <a class="button" href="https://formulae.brew.sh/cask/iloader" target="_blank" rel="noreferrer">
+                Homebrew (Community Maintained)
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="workspace-section">
+        <div class="section-header">
+          <p class="section-label">Credits</p>
+          <span class="section-hint">Contributors and more</span>
+        </div>
+        <div class="glass-card">
+          <h2>Contributors</h2>
+          <div class="contributors favor-first-two">
+            <div class="card">
+              <a href="https://nabdev.me" target="_blank" rel="noreferrer">nab138</a>
+              <span class="subtitle">Creator &amp; Maintainer</span>
+            </div>
+            <div class="card">
+              <a href="https://github.com/StephenDev0" target="_blank" rel="noreferrer">StephenDev0</a>
+              <span class="subtitle">UI Overhaul</span>
+            </div>
+            <div class="card">
+              <a href="https://github.com/se2crid" target="_blank" rel="noreferrer">se2crid</a>
+              <span class="subtitle">Contributor</span>
+            </div>
+            <div class="card">
+              <a href="https://github.com/CelloSerenity" target="_blank" rel="noreferrer">CelloSerenity</a>
+              <span class="subtitle">Contributor</span>
+            </div>
+            <div class="card">
+              <a href="https://github.com/jkcoxson" target="_blank" rel="noreferrer">jkcoxson</a>
+              <span class="subtitle">Contributor</span>
+            </div>
+            <div class="card">
+              <a href="https://github.com/hugeBlack" target="_blank" rel="noreferrer">hugeBlack</a>
+              <span class="subtitle">Contributor</span>
+            </div>
+          </div>
+          <h2>Special Thanks</h2>
+          <div class="contributors favor-first-three">
+            <div class="card">
+              <a href="https://github.com/transistor-exe" target="_blank" rel="noreferrer">Transistor</a>
+              <span class="subtitle">Icon Designer</span>
+            </div>
+            <div class="card">
+              <a href="https://github.com/jkcoxson/idevice" target="_blank" rel="noreferrer">idevice by jkcoxson</a>
+              <span class="subtitle">Device Communication Library</span>
+            </div>
+            <div class="card">
+              <a href="https://github.com/nab138/isideload" target="_blank" rel="noreferrer">isideload by nab138</a>
+              <span class="subtitle">Sideloading Library</span>
+            </div>
+            <div class="card">
+              <a href="https://github.com/khcrysalis/Impactor" target="_blank" rel="noreferrer">Impactor by
+                khcrysalis</a>
+              <span class="subtitle">Reference Code</span>
+            </div>
+            <div class="card">
+              <a href="https://github.com/Dadoum/Sideloader" target="_blank" rel="noreferrer">Sideloader by Dadoum</a>
+              <span class="subtitle">Reference Code</span>
+            </div>
+            <div class="card">
+              <a href="https://github.com/jkcoxson/idevice_pair" target="_blank" rel="noreferrer">idevice_pair by
+                jkcoxson</a>
+              <span class="subtitle">Reference Code</span>
+            </div>
+            <div class="card">
+              <a href="https://tauri.app" target="_blank" rel="noreferrer">Tauri</a>
+              <span class="subtitle">App Framework</span>
+            </div>
+          </div>
+          <h2>Translators</h2>
+          <div class="contributors">
+            <div class="card"><a href="https://github.com/TNT-333" target="_blank" rel="noreferrer">TNT-333</a><span
+                class="subtitle">German</span></div>
+            <div class="card"><a href="https://github.com/basketshoe" target="_blank"
+                rel="noreferrer">basketshoe</a><span class="subtitle">Italian</span></div>
+            <div class="card"><a href="https://github.com/baocreata" target="_blank" rel="noreferrer">baocreata</a><span
+                class="subtitle">Vietnamese</span></div>
+            <div class="card"><a href="https://github.com/IamArayel" target="_blank" rel="noreferrer">IamArayel</a><span
+                class="subtitle">French</span></div>
+            <div class="card"><a href="https://github.com/kkula9999" target="_blank" rel="noreferrer">kkula9999</a><span
+                class="subtitle">Chinese</span></div>
+            <div class="card"><a href="https://github.com/sibwaze" target="_blank" rel="noreferrer">sibwaze</a><span
+                class="subtitle">Russian</span></div>
+            <div class="card"><a href="https://github.com/okinaau" target="_blank" rel="noreferrer">okinaau</a><span
+                class="subtitle">Arabic</span></div>
+            <div class="card"><a href="https://github.com/WingChunWong" target="_blank"
+                rel="noreferrer">WingChunWong</a><span class="subtitle">Cantonese &amp; Chinese</span></div>
+            <div class="card"><a href="https://github.com/marcinmajsc" target="_blank"
+                rel="noreferrer">marcinmajsc</a><span class="subtitle">Polish</span></div>
+            <div class="card"><a href="https://github.com/ern775" target="_blank" rel="noreferrer">ern775</a><span
+                class="subtitle">Turkish</span></div>
+            <div class="card"><a href="https://github.com/jazoppix" target="_blank" rel="noreferrer">jazoppix</a><span
+                class="subtitle">Spanish</span></div>
+            <div class="card"><a href="https://github.com/eseiker" target="_blank" rel="noreferrer">eseiker</a><span
+                class="subtitle">Korean</span></div>
+            <div class="card"><a href="https://github.com/seomin0610" target="_blank"
+                rel="noreferrer">seomin0610</a><span class="subtitle">Korean</span></div>
+            <div class="card"><a href="https://github.com/Ordyan777" target="_blank" rel="noreferrer">Ordyan777</a><span
+                class="subtitle">Armenian</span></div>
+            <div class="card"><a href="https://github.com/kakik0u" target="_blank" rel="noreferrer">kakik0u</a><span
+                class="subtitle">Japanese</span></div>
+            <div class="card"><a href="https://github.com/lkspodmol" target="_blank" rel="noreferrer">lkspodmol</a><span
+                class="subtitle">Czech</span></div>
+            <div class="card"><a href="https://github.com/marcusherelammonstyle-cmd" target="_blank"
+                rel="noreferrer">marcusherelammonstyle-cmd</a><span class="subtitle">Swedish</span></div>
+          </div>
+          <p class="subtitle">
+            You can contribute translations
+            <a href="https://github.com/nab138/iloader?tab=readme-ov-file#translating" target="_blank" rel="noreferrer">
+              here.
+            </a>
+          </p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
     <p>
-      iloader is a free and open-source iOS sideloading companion that helps
-      install SideStore and IPA apps on Windows, macOS, and Linux.
-    </p>
-    <p>
-      Official project links:
-      <a href="https://github.com/nab138/iloader">GitHub repository</a>
-      and
-      <a href="https://github.com/nab138/iloader/releases/latest">
-        latest release downloads
+      © 2026 nab138. Website source licensed under
+      <a href="https://github.com/nab138/iloader-website/blob/main/LICENSE">
+        AGPLv3
+      </a>
+      . Branding, logos, and the name "iloader" are excluded and subject to
+      <a href="https://github.com/nab138/iloader-website/blob/main/LICENSE-BRANDING">
+        separate terms
       </a>
       .
     </p>
-    <p>Please enable JavaScript for the full interactive website.</p>
-  </noscript>
-
-  <div id="root"></div>
-  <script type="module" src="/src/main.tsx"></script>
+  </footer>
 </body>
 
 </html>
