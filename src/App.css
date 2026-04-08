@@ -191,6 +191,11 @@ button:active {
   text-decoration: none;
 }
 
+hr {
+  border: none;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+
 .glass-card {
   border-radius: 1.25rem;
   padding: 1.1rem;
@@ -201,6 +206,10 @@ button:active {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+}
+
+.gc-small-gap {
+  gap: 0.35rem;
 }
 
 .card {
