@@ -300,6 +300,11 @@
               <span class="subtitle">Sideloading Library</span>
             </div>
             <div class="card">
+              <a href="https://github.com/indygreg/apple-codesign" target="_blank" rel="noreferrer">apple-codesign by
+                indygreg</a>
+              <span class="subtitle">Codesigning Library</span>
+            </div>
+            <div class="card">
               <a href="https://github.com/khcrysalis/Impactor" target="_blank" rel="noreferrer">Impactor by
                 khcrysalis</a>
               <span class="subtitle">Reference Code</span>
@@ -363,6 +368,51 @@
               here.
             </a>
           </p>
+        </div>
+      </section>
+
+      <section class="workspace-section">
+        <div class="section-header">
+          <p class="section-label">Technical Details</p>
+          <span class="section-hint">How iloader works</span>
+        </div>
+        <div class="glass-card">
+          <h2>How iloader works</h2>
+          <p>
+            iloader works by essentially pretending to be a Mac running Xcode, allowing it to use Apple's official APIs
+            and tools for sideloading, which are intended for developers to test their apps.
+          </p>
+          <ol>
+            <li>
+              First, iloader aquires information about a fake Mac from an anisette server. This is why a Mac shows up in
+              your Apple ID devices when you use iloader. If iloader hasn't logged in from this computer before, it
+              provisions with the anisette server to get a new fake Mac identity, called an adi.pb, which can be reused
+              for future logins. This is why you have to log in with 2FA the first time you use iloader, but not
+              subsequent times.
+            </li>
+            <li>
+              Next, iloader uses this information to log in to your Apple ID using Apple's GrandSlam authentication
+              protocol. This is a multi-step process that uses the Secure Remote Password (SRP) protocol to securely
+              transmit your password and 2FA code to Apple.
+            </li>
+            <li>
+              Once logged in, iloader aquires a token for Xcode, which it can then use to create a developer session.
+            </li>
+            <li>
+              When sideloading an app, iloader has to register an app ID and app group, assign the app id to the group,
+              and create a provisioning profile for the app. It does all of this using Apple's APIs, just like Xcode
+              would.
+            </li>
+            <li>
+              iloader also has to acquire a development certificate to sign the app with. If iloader doesn't have one
+              stored, it has to create a new one and send a certificate signing request (CSR) to Apple and have it
+              signed.
+            </li>
+            <li>
+              iloader then uses the provisioning profile and certificate to sign the app with apple-codesign, at which
+              point it can be transferred to the device and installed using idevice.
+            </li>
+          </ol>
         </div>
       </section>
     </div>
