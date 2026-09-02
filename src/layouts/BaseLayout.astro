@@ -1,0 +1,102 @@
+---
+import '../App.css';
+
+const {
+  title,
+  description,
+  canonical,
+  robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
+} = Astro.props;
+
+const ogImage = 'https://iloader.app/iloader.svg';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#2c2c2e" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={canonical} />
+    <meta name="author" content="nab138" />
+    <meta name="application-name" content="iloader" />
+    <meta name="title" content={title} />
+    <meta name="description" content={description} />
+    <meta name="robots" content={robots} />
+    <meta name="googlebot" content={robots} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="iloader" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:alt" content="iloader logo" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content={ogImage} />
+    <script type="application/ld+json" set:html={`
+      ${JSON.stringify({
+        '@context': 'https://schema.org',
+        '@graph': [
+          {
+            '@type': 'WebSite',
+            name: 'iloader',
+            url: 'https://iloader.app/',
+            publisher: {
+              '@id': 'https://iloader.app/#organization',
+            },
+          },
+          {
+            '@type': 'Organization',
+            '@id': 'https://iloader.app/#organization',
+            name: 'iloader',
+            url: 'https://iloader.app/',
+            logo: ogImage,
+            sameAs: ['https://github.com/nab138/iloader'],
+          },
+          {
+            '@type': 'SoftwareApplication',
+            name: 'iloader',
+            applicationCategory: 'DeveloperApplication',
+            operatingSystem: 'Windows, macOS, Linux',
+            description: 'A free and open-source iOS sideloading tool for installing SideStore and IPA apps.',
+            downloadUrl: 'https://github.com/nab138/iloader/releases/latest',
+            offers: {
+              '@type': 'Offer',
+              price: '0',
+              priceCurrency: 'USD',
+            },
+          },
+        ],
+      })}
+    `} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <main class="app">
+      <a class="title-block" href="/" aria-label="iloader home">
+        <img src="/iloader.svg" alt="iloader logo" class="logo" />
+        <div>
+          <h1 class="title">iloader</h1>
+          <p class="subtitle">iOS Sideloading Companion</p>
+        </div>
+      </a>
+      <div class="app-container">
+        <slot />
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>
+        © 2026 nab138. Website source licensed under
+        <a href="https://github.com/nab138/iloader-website/blob/main/LICENSE">AGPLv3</a>.
+        Branding, logos, and the name "iloader" are excluded and subject to
+        <a href="https://github.com/nab138/iloader-website/blob/main/LICENSE-BRANDING">separate terms</a>.
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,125 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import About from '../components/About.astro';
+import Downloads from '../components/Downloads.astro';
+import TechnicalDetails from '../components/TechnicalDetails.astro';
+import FAQ from '../components/FAQ.astro';
+import Beta from '../components/Beta.astro';
+---
+
+<BaseLayout
+  title="iloader - Free Open-Source iOS Sideloading Companion"
+  description="Official website for iloader, the free and open-source iOS sideloading tool. Download for Windows, Mac, and Linux to install SideStore or other apps."
+  canonical="https://iloader.app/"
+>
+  <div class="workspace">
+    <section class="workspace-section">
+      <div class="section-header">
+        <p class="section-label">About</p>
+        <span class="section-hint">Info about iloader</span>
+      </div>
+      <About />
+    </section>
+
+    <section class="workspace-section">
+      <div class="section-header">
+        <p class="section-label">Download</p>
+        <span class="section-hint">Choose a build</span>
+      </div>
+      <Downloads />
+    </section>
+
+    <section class="workspace-section">
+      <div class="section-header">
+        <p class="section-label">iloader-next</p>
+        <span class="section-hint">The next Beta version of iloader</span>
+      </div>
+      <Beta />
+    </section>
+
+
+    <section class="workspace-section">
+      <div class="section-header">
+        <p class="section-label">FAQ</p>
+        <span class="section-hint">Frequently asked questions</span>
+      </div>
+      <FAQ />
+    </section>
+
+    <section class="workspace-section">
+      <div class="section-header">
+        <p class="section-label">Credits</p>
+        <span class="section-hint">Contributors and more</span>
+      </div>
+      <div class="glass-card">
+        <h2>Contributors</h2>
+        <p>
+          While developed primarily by me, nab138, iloader is only possible because of the large community of open-source developers,
+          contributors, users, and more involved with sideloading. Thank you all!
+        </p>
+        <div class="contributors favor-first-two">
+          <div class="card"><a href="https://nabdev.me" target="_blank" rel="noreferrer">nab138</a><span class="subtitle">Creator & Maintainer</span></div>
+          <div class="card"><a href="https://github.com/StephenDev0" target="_blank" rel="noreferrer">StephenDev0</a><span class="subtitle">UI Overhaul</span></div>
+          <div class="card"><a href="https://github.com/se2crid" target="_blank" rel="noreferrer">se2crid</a><span class="subtitle">Contributor</span></div>
+          <div class="card"><a href="https://github.com/CelloSerenity" target="_blank" rel="noreferrer">CelloSerenity</a><span class="subtitle">Contributor</span></div>
+          <div class="card"><a href="https://github.com/jkcoxson" target="_blank" rel="noreferrer">jkcoxson</a><span class="subtitle">Contributor</span></div>
+          <div class="card"><a href="https://github.com/hugeBlack" target="_blank" rel="noreferrer">hugeBlack</a><span class="subtitle">Contributor</span></div>
+        </div>
+
+        <h2>Special Thanks</h2>
+        <div class="contributors favor-first-three">
+          <div class="card"><a href="https://github.com/transistor-exe" target="_blank" rel="noreferrer">Transistor</a><span class="subtitle">Icon Designer</span></div>
+          <div class="card"><a href="https://github.com/jkcoxson/idevice" target="_blank" rel="noreferrer">idevice by jkcoxson</a><span class="subtitle">Device Communication Library</span></div>
+          <div class="card"><a href="https://github.com/nab138/isideload" target="_blank" rel="noreferrer">isideload by nab138</a><span class="subtitle">Sideloading Library</span></div>
+          <div class="card"><a href="https://github.com/Dadoum/apple-crates" target="_blank" rel="noreferrer">apple-codesign-quick by Dadoum</a><span class="subtitle">Codesigning Library</span></div>
+          <div class="card"><a href="https://github.com/khcrysalis/Impactor" target="_blank" rel="noreferrer">Impactor by khcrysalis</a><span class="subtitle">Reference Code</span></div>
+          <div class="card"><a href="https://github.com/Dadoum/Sideloader" target="_blank" rel="noreferrer">Sideloader by Dadoum</a><span class="subtitle">Reference Code</span></div>
+          <div class="card"><a href="https://github.com/jkcoxson/idevice_pair" target="_blank" rel="noreferrer">idevice_pair by jkcoxson</a><span class="subtitle">Reference Code</span></div>
+          <div class="card"><a href="https://tauri.app" target="_blank" rel="noreferrer">Tauri</a><span class="subtitle">App Framework</span></div>
+        </div>
+
+        <h2>Translators</h2>
+        <div class="contributors">
+          <div class="card"><a href="https://github.com/by3lish" target="_blank" rel="noreferrer">By3lish</a><span class="subtitle">Azerbaijani (az)</span></div>
+          <div class="card"><a href="https://github.com/TNT-333" target="_blank" rel="noreferrer">TNT-333</a><span class="subtitle">German (de)</span></div>
+          <div class="card"><a href="https://github.com/basketshoe" target="_blank" rel="noreferrer">basketshoe</a><span class="subtitle">Italian (it)</span></div>
+          <div class="card"><a href="https://github.com/baocreata" target="_blank" rel="noreferrer">baocreata</a><span class="subtitle">Vietnamese (vt)</span></div>
+          <div class="card"><a href="https://github.com/IamArayel" target="_blank" rel="noreferrer">IamArayel</a><span class="subtitle">French (fr)</span></div>
+          <div class="card"><a href="https://github.com/kkula9999" target="_blank" rel="noreferrer">kkula9999</a><span class="subtitle">Traditional &amp; Simplified Chinese (zh_tw &amp; zh_cn)</span></div>
+          <div class="card"><a href="https://github.com/sibwaze" target="_blank" rel="noreferrer">sibwaze</a><span class="subtitle">Russian (ru)</span></div>
+          <div class="card"><a href="https://github.com/notmalicik" target="_blank" rel="noreferrer">notmalicik</a><span class="subtitle">Română (ro)</span></div>
+          <div class="card"><a href="https://github.com/mirdukkkkk" target="_blank" rel="noreferrer">mirdukkkkk</a><span class="subtitle">Improved Russian (ru)</span></div>
+          <div class="card"><a href="https://github.com/okinaau" target="_blank" rel="noreferrer">okinaau</a><span class="subtitle">Arabic (ar)</span></div>
+          <div class="card"><a href="https://github.com/WingChunWong" target="_blank" rel="noreferrer">WingChunWong</a><span class="subtitle">Cantonese (zh_hk) &amp; Improved Chinese (zh_tw &amp; zh_cn)</span></div>
+          <div class="card"><a href="https://github.com/marcinmajsc" target="_blank" rel="noreferrer">marcinmajsc</a><span class="subtitle">Polish (pl)</span></div>
+          <div class="card"><a href="https://github.com/ern775" target="_blank" rel="noreferrer">ern775</a><span class="subtitle">Turkish (tr)</span></div>
+          <div class="card"><a href="https://github.com/canpng" target="_blank" rel="noreferrer">canpng</a><span class="subtitle">Improved Turkish (tr)</span></div>
+          <div class="card"><a href="https://github.com/jazoppix" target="_blank" rel="noreferrer">jazoppix</a><span class="subtitle">Spanish (es)</span></div>
+          <div class="card"><a href="https://github.com/eseiker" target="_blank" rel="noreferrer">eseiker</a><span class="subtitle">Korean (ko)</span></div>
+          <div class="card"><a href="https://github.com/seomin0610" target="_blank" rel="noreferrer">seomin0610</a><span class="subtitle">Improved Korean (ko)</span></div>
+          <div class="card"><a href="https://github.com/Ordyan777" target="_blank" rel="noreferrer">Ordyan777</a><span class="subtitle">Armenian (am)</span></div>
+          <div class="card"><a href="https://github.com/kakik0u" target="_blank" rel="noreferrer">kakik0u</a><span class="subtitle">Japanese (ja)</span></div>
+          <div class="card"><a href="https://github.com/lkspodmol" target="_blank" rel="noreferrer">lkspodmol</a><span class="subtitle">Czech (cs_cz)</span></div>
+          <div class="card"><a href="https://github.com/marcusherelammonstyle-cmd" target="_blank" rel="noreferrer">marcusherelammonstyle-cmd</a><span class="subtitle">Swedish (sv)</span></div>
+          <div class="card"><a href="https://github.com/MCI49312" target="_blank" rel="noreferrer">MCI49312</a><span class="subtitle">Hungarian (hu)</span></div>
+          <div class="card"><a href="https://github.com/Kynonim" target="_blank" rel="noreferrer">Kynonim</a><span class="subtitle">Indonesian (id)</span></div>
+          <div class="card"><a href="https://github.com/DD00031" target="_blank" rel="noreferrer">DD00031</a><span class="subtitle">Dutch (nl)</span></div>
+          <div class="card"><a href="https://github.com/Toritan123" target="_blank" rel="noreferrer">Toritan123</a><span class="subtitle">Improved Japanese (ja)</span></div>
+          <div class="card"><a href="https://github.com/marcinmajsc" target="_blank" rel="noreferrer">marcinmajsc</a><span class="subtitle">Improved Polish (pl)</span></div>
+          <div class="card"><a href="https://github.com/ShadowWLX" target="_blank" rel="noreferrer">ShadowWLX</a><span class="subtitle">Improved French (fr)</span></div>
+          <div class="card"><a href="https://github.com/fkpcomposer" target="_blank" rel="noreferrer">fkpcomposer</a><span class="subtitle">Brazilian Portuguese (pt_br)</span></div>
+        </div>
+        <p class="subtitle">You can contribute translations <a href="https://github.com/nab138/iloader?tab=readme-ov-file#translating" target="_blank" rel="noreferrer">here.</a></p>
+      </div>
+    </section>
+
+    <section class="workspace-section">
+      <div class="section-header">
+        <p class="section-label">Technical Details</p>
+        <span class="section-hint">How iloader works</span>
+      </div>
+
+        <TechnicalDetails />
+    </section>
+  </div>
+</BaseLayout>

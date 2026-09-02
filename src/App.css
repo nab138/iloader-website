@@ -71,16 +71,23 @@ body {
   padding-top: 3rem;
 }
 
+.app-container {
+  max-width: 120rem;
+}
+
 .title-block {
   display: flex;
   align-items: center;
   gap: 0.9rem;
   cursor: pointer;
+  text-decoration: none;
+  color: inherit;
 }
 
 .title {
   margin: 0;
   font-size: 2.2rem;
+  text-decoration: none;
 }
 
 .subtitle {
@@ -174,6 +181,10 @@ button {
   background: #2c2c2e;
   border: 1px solid rgba(255, 255, 255, 0.12);
   box-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .button:hover,
@@ -259,6 +270,14 @@ ul {
   -webkit-columns: 2;
   -moz-columns: 2;
   column-gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  ul {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+  }
 }
 
 ol {
@@ -347,4 +366,38 @@ a {
 
 .disclaimer {
   color: var(--text-muted);
+}
+
+.linux-download-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row !important;
+  gap: 0.75rem;
+}
+
+.linux-download-buttons .button {
+  width: fit-content;
+  flex: 1 1 calc(50% - 0.75rem);
+  white-space: nowrap;
+}
+
+@media (max-width: 450px) {
+  .linux-download-buttons .button {
+    white-space: normal;
+    flex: 1 1 100%;
+  }
+}
+
+.button-image {
+  width: 2rem;
+}
+
+.portfolio-plug {
+  transform: rotate(10deg);
+}
+
+.technical-details-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
