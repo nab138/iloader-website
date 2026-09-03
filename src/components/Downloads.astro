@@ -1,41 +1,83 @@
 ---
-import GlassCard from './GlassCard.astro';
+import GlassCard from "./GlassCard.astro";
 
-const baseUrl = 'https://github.com/nab138/iloader/releases/latest/download/';
+const baseUrl = "https://github.com/nab138/iloader/releases/latest/download/";
 ---
 
 <GlassCard>
   <h2>Download iloader</h2>
   <p>
-    Here and <a href="https://github.com/nab138/iloader" target="_blank" rel="noreferrer">the GitHub repository</a> are the only places iloader is officially distributed. Do not download iloader from any other sources.
+    Here and <a
+      href="https://github.com/nab138/iloader"
+      target="_blank"
+      rel="noreferrer">the GitHub repository</a
+    > are the only places iloader is officially distributed. Do not download iloader
+    from any other sources.
   </p>
   <p>
-    All builds, including Linux ARM builds are available on the <a href="https://github.com/nab138/iloader/releases/latest" target="_blank" rel="noreferrer">GitHub releases page.</a>
+    All builds, including Linux ARM builds are available on the <a
+      href="https://github.com/nab138/iloader/releases/latest"
+      target="_blank"
+      rel="noreferrer">GitHub releases page.</a
+    >
   </p>
   <div class="downloads">
     <div class="card">
       <h3>Windows</h3>
-      <p>Requires <a href="https://apple.co/ms" target="_blank" rel="noreferrer">iTunes</a> to be installed</p>
-      <a class="button primary" href={`${baseUrl}iloader-windows-x64.msi`}>MSI Installer</a>
-      <a class="button" href={`${baseUrl}iloader-windows-x64.exe`}>EXE Installer</a>
+      <p>
+        Requires <a href="https://apple.co/ms" target="_blank" rel="noreferrer"
+          >iTunes</a
+        > to be installed
+      </p>
+      <a class="button primary" href={`${baseUrl}iloader-windows-x64.msi`}
+        >MSI Installer</a
+      >
+      <a class="button" href={`${baseUrl}iloader-windows-x64.exe`}
+        >EXE Installer</a
+      >
     </div>
     <div class="card">
       <h3>Linux (x86_64)</h3>
       <p>Requires usbmuxd (likely bundled with your distro)</p>
-    <div class="linux-download-buttons"> 
-        <a class="button" href={`${baseUrl}iloader-linux-amd64.deb`}>Ubuntu/Debian (.deb)</a>
-        <a class="button" href={`${baseUrl}iloader-linux-x86_64.rpm`}>Fedora/RedHat (.rpm)</a>
-        <a class="button" href={`${baseUrl}iloader-linux-amd64.AppImage`}>AppImage</a>
-        <a class="button" href="https://aur.archlinux.org/packages/iloader-bin/" target="_blank" rel="noreferrer">AUR (Community Maintained)</a>
-        <a class="button" href="https://copr.fedorainfracloud.org/coprs/anudeepd/iloader" target="_blank" rel="noreferrer">Fedora COPR (Community Maintained)</a>
+      <div class="linux-download-buttons">
+        <a class="button" href={`${baseUrl}iloader-linux-amd64.deb`}
+          >Ubuntu/Debian (.deb)</a
+        >
+        <a class="button" href={`${baseUrl}iloader-linux-x86_64.rpm`}
+          >Fedora/RedHat (.rpm)</a
+        >
+        <a class="button" href={`${baseUrl}iloader-linux-amd64.AppImage`}
+          >AppImage</a
+        >
+        <a
+          class="button"
+          href="https://aur.archlinux.org/packages/iloader-bin/"
+          target="_blank"
+          rel="noreferrer">AUR (Community Maintained)</a
+        >
+        <a
+          class="button"
+          href="https://copr.fedorainfracloud.org/coprs/anudeepd/iloader"
+          target="_blank"
+          rel="noreferrer">Fedora COPR (Community Maintained)</a
+        >
       </div>
     </div>
     <div class="card">
       <h3>macOS</h3>
       <p>No prerequisites</p>
-      <a class="button primary" href={`${baseUrl}iloader-darwin-universal.dmg`}>DMG Installer</a>
-      <a class="button" href={`${baseUrl}iloader-darwin-universal.app.tar.gz`}>App Bundle (tar.gz)</a>
-      <a class="button" href="https://formulae.brew.sh/cask/iloader" target="_blank" rel="noreferrer">Homebrew (Community Maintained)</a>
+      <a class="button primary" href={`${baseUrl}iloader-darwin-universal.dmg`}
+        >DMG Installer</a
+      >
+      <a class="button" href={`${baseUrl}iloader-darwin-universal.app.tar.gz`}
+        >App Bundle (tar.gz)</a
+      >
+      <a
+        class="button"
+        href="https://formulae.brew.sh/cask/iloader"
+        target="_blank"
+        rel="noreferrer">Homebrew (Community Maintained)</a
+      >
     </div>
   </div>
 </GlassCard>

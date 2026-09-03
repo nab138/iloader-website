@@ -1,7 +1,7 @@
 ---
-const { class: className = '', ...props } = Astro.props;
+const { class: className = "", ...props } = Astro.props;
 ---
 
-<div class:list={['glass-card', className]} {...props}>
+<div class:list={["glass-card", className]} {...props}>
   <slot />
 </div>
