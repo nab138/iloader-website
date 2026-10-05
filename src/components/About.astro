@@ -1,35 +1,33 @@
 ---
 import GlassCard from "./GlassCard.astro";
+import { numUniqueLanguages } from "../data/translators";
 ---
 
 <GlassCard class="gc-small-gap">
   <h2>About iloader</h2>
   <p>
-    iloader is a free and open-source iOS sideloading companion designed to make
-    installing SideStore and other IPA apps as easy as possible.
+    iloader is a free, open-source, cross-platform iOS sideloading companion
+    designed to make installing SideStore and other IPA apps as easy as
+    possible.
   </p>
   <div>
     <hr />
     <h3>Features</h3>
     <ul>
-      <li>Supports Windows, Linux, and macOS</li>
       <li>
-        Automatically installs and helps setup <a
+        Automatically installs and sets up <a
           href="https://docs.sidestore.io"
           target="_blank"
           rel="noreferrer">SideStore</a
-        >
+        > or LiveContainer+SideStore
       </li>
+      <li>Get helpful, intelligent fixes and suggestions for common errors</li>
+      <li>Install any IPA application</li>
+      <li>Localized into {numUniqueLanguages + 1 /* English */} languages</li>
       <li>
         Place RPPairing and Lockdown Pairing files into apps like StikDebug or
         Protokolle
       </li>
-      <li>Get intelligent fixes and suggestions for common errors</li>
-      <li>Install any IPA application</li>
-      <li>See and manage development certificates and App IDs</li>
-      <li>Open source and MIT licensed</li>
-      <li>Localized into multiple languages</li>
-      <li>View and export logs</li>
       <li>Connect to devices wirelessly or via USB</li>
     </ul>
     <p>And more!</p>
@@ -43,12 +41,9 @@ import GlassCard from "./GlassCard.astro";
     <hr />
     <p class="disclaimer">
       iloader is designed to be safe and unlikely to cause issues, but we are
-      not responsible for damage to devices, data, or Apple accounts.
-    </p>
-    <hr />
-    <p class="disclaimer">
-      We are not responsible for any misuse of iloader; please ensure compliance
-      with all applicable laws and regulations.
+      not responsible for damage to devices, data, or Apple accounts. We are not
+      responsible for any misuse of iloader; please ensure compliance with all
+      applicable laws and regulations.
     </p>
     <hr />
     <p class="disclaimer">
@@ -61,6 +56,22 @@ import GlassCard from "./GlassCard.astro";
       sell apps or certificates. If you encounter a site selling iloader or its services,
       it is not official and likely a scam.
     </p>
+    <hr />
+    <div class="sponsor-section">
+      <a
+        class="button sponsor-button"
+        href="https://github.com/sponsors/nab138"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img src="/heart.svg" alt="Heart Icon" class="button-image" />
+        Sponsor
+      </a>
+      <p>
+        Enjoying iloader? Please consider sponsoring! It helps support
+        development and keep the project free for everyone.
+      </p>
+    </div>
     <hr />
   </div>
   <div class="buttons">

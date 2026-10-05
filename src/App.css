@@ -401,3 +401,15 @@ a {
   flex-direction: column;
   gap: 0.5rem;
 }
+
+.sponsor-button {
+  flex-grow: 1;
+}
+
+.sponsor-section {
+  max-width: 70rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+}
